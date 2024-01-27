@@ -438,8 +438,6 @@ def passwrd():
 					pwv.append(frs+'1997')
 					pwv.append(frs+'1998')
 					pwv.append(frs+'1999')
-					pwv.append('19951995')
-					pwv.append('19961996')
 					pwv.append('19971997')
 					pwv.append('19981998')
 					pwv.append('19991999')
@@ -450,7 +448,6 @@ def passwrd():
 					pwv.append('00998877')
 					pwv.append('10203040')
 					pwv.append('1020304050')
-					pwv.append('123456654321')
 					
 			else:
 				if len(frs)<3:
@@ -471,15 +468,12 @@ def passwrd():
 					pwv.append('١٢٣٤٥٦')
 					pwv.append('١٢٣٤٥٦٧٨٩')
 					pwv.append('ppooiiuu')
-					pwv.append('10002000')
 					pwv.append('1234512345')
 					pwv.append('11223344@@')
 					pwv.append('12345@@@@@')
-					pwv.append('qqwweerr')
 					pwv.append('qqwweerrtt')
 					pwv.append('aaaassss')
 					pwv.append('aassddff')
-					pwv.append('zzzzxxxx')
 			if 'ya' in pwpluss:
 				for xpwd in pwnya:
 					pwv.append(xpwd)
@@ -685,7 +679,7 @@ if __name__=='__main__':
 	KENZOVIP()
 	
 	Threads=[] 
-for t in range(35):
+for t in range(38):
  x = threading.Thread(target=passwrd)
  x.start()
  Threads.append(x)
